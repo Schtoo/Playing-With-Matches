@@ -2,21 +2,25 @@
 <html>
 <head>
 	<title>Playing With Matches</title>
-
-	<style type="text/css">
-	/* CSS goes here */
-	.number {
-		font-size: 2em;
-		background-color: turquoise;
-		color:navy;
-		text-align: center;
-		width: 10em;
-		margin: 0 auto;
-	}
-	</style>
+	<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 	<!-- HTML goes here -->
-<div class="number">0</div>
+<div id="number"><strong>0</strong></div>
+
+<script type="text/javascript">
+	// JavaScript code goes here at the bottom
+	
+	console.log(number);
+	function randomNumber () {
+		return Math.floor(Math.random()  * (9 - 1) + 1);
+	}
+
+	function findDiv () {
+		let numberOnScreen = document.getElementById('number');
+		numberOnScreen.innerHTML = randomNumber();
+	}
+	findDiv();
+</script>
 </body>
 </html>
