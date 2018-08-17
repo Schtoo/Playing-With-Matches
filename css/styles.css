@@ -1,13 +1,15 @@
 	/* CSS goes here */
+
 	.allNumbers {
 		width: 315px;
 		height: auto;
 		margin: 0 auto;
 	}
+
 	.numbers {
 		font-size: 5em;
 		background-color: whitesmoke;
-		color:black;
+		color: black;
 		text-align: center;
 		width: 10em;
 		margin: 0 auto;
@@ -20,7 +22,7 @@
 
 	.match {
 		font-size: 5em;
-		color:black;
+		color: black;
 		text-align: center;
 		width: 10em;
 		margin: 0 auto;
@@ -34,7 +36,7 @@
 
 	.special {
 		font-size: 5em;
-		color:black;
+		color: black;
 		text-align: center;
 		width: 10em;
 		margin: 0 auto;
@@ -56,6 +58,7 @@
 		font-size: 3em;
 		color: red;
 	}
-	.header{
+
+	.header {
 		text-align: center;
 	}
