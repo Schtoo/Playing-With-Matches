@@ -1,10 +1,61 @@
 	/* CSS goes here */
-	#number {
+	.allNumbers {
+		width: 315px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.numbers {
 		font-size: 5em;
-		background-color: turquoise;
-		color:navy;
+		background-color: whitesmoke;
+		color:black;
 		text-align: center;
 		width: 10em;
 		margin: 0 auto;
+		border: 1px solid black;
+		display: flex;
+		width: 100px;
+		height: 100px;
+		display: inline-block;
 	}
-	
+
+	.match {
+		font-size: 5em;
+		color:black;
+		text-align: center;
+		width: 10em;
+		margin: 0 auto;
+		border: 1px solid black;
+		display: flex;
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+		background-color: chartreuse;
+	}
+
+	.special {
+		font-size: 5em;
+		color:black;
+		text-align: center;
+		width: 10em;
+		margin: 0 auto;
+		border: 1px solid black;
+		display: flex;
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+		background-color: gold;
+	}
+
+	.messageBox {
+		text-align: center;
+		font-size: 3em;
+	}
+
+	.noMatch {
+		text-align: center;
+		font-size: 3em;
+		color: red;
+	}
+	.header{
+		text-align: center;
+	}

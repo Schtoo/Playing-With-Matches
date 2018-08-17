@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Playing With Matches</title>
-	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+	<div class="header"><h1>Schtoo & Mike playing with Matches </h1></div>
 	<!-- HTML goes here -->
-<div id="number"><strong>0</strong></div>
+	<div class="allNumbers">
+		<div class="numbers">1</div>
+		<div class="numbers">2</div>
+		<div class="numbers">3</div>
+	</div>
+	<div class="allNumbers" style="padding: 5px 0 5px 0">
+		<div class="numbers">4</div>
+		<div class="numbers">5</div>
+		<div class="numbers">6</div>
+	</div>
+	<div class="allNumbers">
+		<div class="numbers">7</div>
+		<div class="numbers">8</div>
+		<div class="numbers">9</div>
+	</div>
+	<div class="messageBox"></div>
 
-<script type="text/javascript">
-	// JavaScript code goes here at the bottom
-	
-	console.log(number);
-	function randomNumber () {
-		return Math.floor(Math.random()  * (9 - 1) + 1);
-	}
+	<script type="text/javascript" src="./js/script.js"></script>
 
-	function findDiv () {
-		let numberOnScreen = document.getElementById('number');
-		numberOnScreen.innerHTML = randomNumber();
-	}
-	findDiv();
-</script>
 </body>
+
 </html>
