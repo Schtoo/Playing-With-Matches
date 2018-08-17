@@ -1,0 +1,10 @@
+	/* CSS goes here */
+	#number {
+		font-size: 5em;
+		background-color: turquoise;
+		color:navy;
+		text-align: center;
+		width: 10em;
+		margin: 0 auto;
+	}
+	
